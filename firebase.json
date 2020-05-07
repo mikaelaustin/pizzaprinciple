@@ -3,10 +3,11 @@
     "predeploy": [
       "npm --prefix \"$RESOURCE_DIR\" run lint",
       "npm --prefix \"$RESOURCE_DIR\" run build"
-    ]
+    ],
+    "source": "functions"
   },
   "hosting": {
-    "public": "public",
+    "public": "gatsby-site/public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -65,6 +66,10 @@
         "function": "pp"
       },
       {
+        "source": "/invalidcontact",
+        "destination": "/404.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
@@ -77,5 +82,9 @@
         "port": "5001"
       }
     }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }

@@ -3,6 +3,11 @@ import * as admin from 'firebase-admin';
 import * as firebaseHelper from 'firebase-functions-helper/dist';
 import * as express from 'express'
 
+//const serviceAccount = local dev requires this & the lines 
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
+
 admin.initializeApp(functions.config().firebase);
 const db = admin.firestore();
 const contactsCollection = "DistributionMembers"
@@ -28,13 +33,14 @@ app.post( "/signup", async ( req, res ) => {
 
         const newContact = await firebaseHelper.firestore
             .createNewDocument(db, contactsCollection, contact);
-        res.status(201).send(`Created a new contact: ${newContact.id}`);
+        console.log("add document ", newContact.id)
+        //res.status(201).send(`Created a new contact: ${newContact.id}`);
+        res.status(201).redirect("/contact/thanks");
     } catch (error) {
         console.log("Error: ", error)
-        res.status(400).send(`Contact should only contains firstName, lastName and email!!!`);
+        //make a contact invalid page that gets rendered at this path
+        res.status(400).redirect("/invalidcontact");
     }  
-
-    //res.redirect("/contact/thanks");
 });
 
 export const pp = functions.https.onRequest(app);

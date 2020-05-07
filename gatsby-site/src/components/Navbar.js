@@ -39,13 +39,13 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div > {/* className="container" */}
+        <div className="navbar-container"> {/* className="container" */}
           <div className="navbar-brand" >
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="ppmini" style={{ width: '55px', height:'35px' }} /> 
             </Link>
             {/* Hamburger menu */}
-            {/* <div
+            <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
@@ -53,9 +53,9 @@ const Navbar = class extends React.Component {
               <span />
               <span />
               <span />
-            </div> */}
+            </div>
           </div>
-          {/* <div
+          <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
@@ -63,7 +63,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to="/">
                 Blog
               </Link>
               <Link className="navbar-item" to="/contact">
@@ -72,7 +72,7 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
             </div>
-          </div> */}
+          </div>
         </div>
       </nav>
     )

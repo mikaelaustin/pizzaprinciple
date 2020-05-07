@@ -81,12 +81,13 @@ export const IndexPageTemplate = ({
                     justifyContent: 'space-around',
                     flexDirection: 'column',
                   }}>
-                    <h3 className="has-text-centered has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
-                    Sign up for THE SLICE, our monthly newsletter
-                    </h3>
                   </div>
                 </div>
                 <div> {/* sign up form is this div */}
+                  <BlogRoll />
+                  <h3 className="has-text-centered has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
+                    Sign up for THE SLICE, our monthly newsletter
+                  </h3>
                   <section className="section">
                     <div className="container">
                       <div className="content">
@@ -109,7 +110,7 @@ export const IndexPageTemplate = ({
                           </div>
                           <div className="field">
                             <label className="label" htmlFor={'name'}>
-                              Your name
+                              Your Name
                             </label>
                             <div className="control">
                               <input
@@ -138,7 +139,12 @@ export const IndexPageTemplate = ({
                             </div>
                           </div>
                           <div className="field">
-                            <button className="button is-link" color='#fc00e3' type="submit">
+                            <button className="button is-link" type="submit" 
+                                style={{
+                                  backgroundColor: 'rgb(171, 33, 33)',
+                                  borderColor: 'black',
+                                  hoverBackgroundColor: 'rgb(0, 0, 0)'
+                              }}>
                               Add me!
                             </button>
                           </div>
@@ -154,20 +160,20 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p>{description}</p>
                   </div>
-                </div> */}
-                {/* <Features gridItems={intro.blurbs} />
+                </div>
+                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
-                </div> */}
-                {/* <div className="column is-12">
+                </div>
+                <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
-                  <BlogRoll />
+                  
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Read more
