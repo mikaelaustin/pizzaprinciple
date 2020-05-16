@@ -1,19 +1,15 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+## Mikael Austin 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+is a NYC based technical salesperson at a startup and alumna of Cornell University. She regularly deals with negotiation. She has participated as a guest speaker on numerous occasions at different colleges. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+## The Pizza Principle
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Mikael created the concept of The Pizza Principle as a negotiation tool at a pizza shop near her NYC apartment. She learned that asking for free pizza--a low stakes item--is the perfect way to practice asking for more important stuff like a salary raise or flexible work hours. She learned the freedom associated with learning that “no” is the worst you will hear, and became friends with the uncomfortable feeling you often get when you ask for more. Through asking for free pizza, she developed the ability to confidently ask for what she wants. 
+
+Mikael is currently turning The Pizza Principle into a book, and wants to make asking for free pizza into a national phenomenon. 
