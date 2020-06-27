@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: THE PIZZA PRINCIPLE
-image: /img/pizza-homepage-1920x1280.png
+image: /img/pizza-homepage-resize.png
 heading: Great coffee with a conscience
 subheading: The pizza's in the oven, good things coming soon...
 mainpitch:

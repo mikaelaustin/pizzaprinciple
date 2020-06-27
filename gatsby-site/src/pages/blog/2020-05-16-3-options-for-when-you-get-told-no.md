@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 3 options for when you get told no 
+title: 3 Options for When You Get Told No 
 date: 2020-05-16T03:00:00.000Z
 featuredpost: false
 featuredimage: /img/ask-more.jpeg

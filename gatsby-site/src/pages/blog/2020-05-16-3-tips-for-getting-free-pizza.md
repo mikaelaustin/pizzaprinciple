@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 3 tips for getting free pizza
+title: 3 Tips for Getting Free Pizza
 date: 2020-05-16T02:00:00.000Z
 featuredpost: false
 featuredimage: /img/get-pizza.jpeg
